@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_replay",
+    "texture": "544629ae-503d-4776-bd9c-49c6e8fae7b5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      456,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      456,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

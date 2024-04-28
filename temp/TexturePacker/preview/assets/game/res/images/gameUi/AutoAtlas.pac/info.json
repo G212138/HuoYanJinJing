@@ -1,0 +1,453 @@
+{
+  "projectPath": "D:\\beiJing\\LianXianTiMoBan",
+  "mtimes": {
+    "10d8a510-8424-4abf-bf6a-bdcd8412e02f": {
+      "assetMtime": 1700054846390,
+      "metaMtime": 1700054853877
+    },
+    "083b3b1f-5705-437a-8cd0-e5eddfdac1ea": {
+      "assetMtime": 1700031008051,
+      "metaMtime": 1700031008094
+    },
+    "f1f235f4-2767-48ae-a02a-27c1c62ac668": {
+      "assetMtime": 1700031008051,
+      "metaMtime": 1700031008094
+    },
+    "137cf0ca-3fc2-4430-ad82-f633f860f17d": {
+      "assetMtime": 1700034472095,
+      "metaMtime": 1700034472123
+    },
+    "d682c786-b1f7-40f0-bba6-bbabfa64e947": {
+      "assetMtime": 1700034472095,
+      "metaMtime": 1700034472123
+    },
+    "15031d61-f351-4f0d-bd68-81018a7de538": {
+      "assetMtime": 1700039379522,
+      "metaMtime": 1700039408056
+    },
+    "7ddfcd19-a13e-4660-a337-82add288800c": {
+      "assetMtime": 1700039379522,
+      "metaMtime": 1700039408056
+    },
+    "202d3243-77af-4428-9cae-aa034e53f009": {
+      "assetMtime": 1700046038438,
+      "metaMtime": 1700046038466
+    },
+    "76d0f143-e1ed-488b-b757-7972a25f01e3": {
+      "assetMtime": 1700046038438,
+      "metaMtime": 1700046038466
+    },
+    "2938fbae-cdac-4790-b662-b2e12a96a455": {
+      "assetMtime": 1700031027049,
+      "metaMtime": 1700031027068
+    },
+    "b1de58ba-1f86-4441-a977-727cc5964963": {
+      "assetMtime": 1700031027049,
+      "metaMtime": 1700031027068
+    },
+    "2f4c0cfc-f38b-4e8a-9731-bc0eca1c2df7": {
+      "assetMtime": 1700031027049,
+      "metaMtime": 1700031027070
+    },
+    "eead330d-55ee-4ab9-aa83-8ad4939a54ff": {
+      "assetMtime": 1700031027049,
+      "metaMtime": 1700031027070
+    },
+    "321eacaa-024c-44fd-9bc1-7f944608d378": {
+      "assetMtime": 1699414147875,
+      "metaMtime": 1699414282033
+    },
+    "989375a3-2b75-4545-8d83-aa78c516867b": {
+      "assetMtime": 1699414147875,
+      "metaMtime": 1699414282033
+    },
+    "32a3cab8-0bfe-47eb-b349-0495e11f5c7d": {
+      "assetMtime": 1700028337461,
+      "metaMtime": 1700028337481
+    },
+    "6a290578-b0b2-450e-bc59-84ff5f42bfc3": {
+      "assetMtime": 1700028337461,
+      "metaMtime": 1700028337481
+    },
+    "364b1e00-efe0-479a-8948-81f845771035": {
+      "assetMtime": 1700046742858,
+      "metaMtime": 1700046742888
+    },
+    "2e693bb4-ff8d-4273-aebc-7253b7824749": {
+      "assetMtime": 1700046742858,
+      "metaMtime": 1700046742888
+    },
+    "7b396f16-bd0a-4540-9897-4c7c33e87652": {
+      "assetMtime": 1700044081272,
+      "metaMtime": 1700044081308
+    },
+    "6039d2c7-cfcd-4844-a420-3c5f1f1fe2be": {
+      "assetMtime": 1700044081272,
+      "metaMtime": 1700044081308
+    },
+    "99bb6d3d-5a21-4b29-a310-e200911aa0c8": {
+      "assetMtime": 1699607253133,
+      "metaMtime": 1699607253211
+    },
+    "494a2b79-e291-4358-8288-79b425a4fc70": {
+      "assetMtime": 1699607253133,
+      "metaMtime": 1699607253211
+    },
+    "a2e35cf8-b207-4717-becc-48579196bc4d": {
+      "assetMtime": 1699607253134,
+      "metaMtime": 1699607253190
+    },
+    "6ddb7bb0-3e4b-4dfc-adff-6172be198544": {
+      "assetMtime": 1699607253134,
+      "metaMtime": 1699607253190
+    },
+    "d3b97893-0be5-46a7-8f78-6d4c8a3cd35f": {
+      "assetMtime": 1700028406018,
+      "metaMtime": 1700028406058
+    },
+    "4d12aa40-b59e-4953-a3f4-4da1b632ceb7": {
+      "assetMtime": 1700028406018,
+      "metaMtime": 1700028406058
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 2048,
+    "height": 2048,
+    "ver": "1.2.1",
+    "uuid": "10d8a510-8424-4abf-bf6a-bdcd8412e02f",
+    "maxWidth": 2048,
+    "maxHeight": 2048,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "墙",
+            "uuid": "364b1e00-efe0-479a-8948-81f845771035",
+            "textureUuid": "2e693bb4-ff8d-4273-aebc-7253b7824749",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855042_image_8.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 1192,
+              "height": 392,
+              "rotatedWidth": 392,
+              "rotatedHeight": 1192
+            },
+            "rawWidth": 1192,
+            "rawHeight": 392,
+            "width": 1198,
+            "height": 398,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/2e/2e693bb4-ff8d-4273-aebc-7253b7824749.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 398,
+            "rotatedHeight": 1198
+          },
+          {
+            "name": "bg-chuang",
+            "uuid": "d3b97893-0be5-46a7-8f78-6d4c8a3cd35f",
+            "textureUuid": "4d12aa40-b59e-4953-a3f4-4da1b632ceb7",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855043_image_12.png",
+            "trim": {
+              "x": 401,
+              "y": 3,
+              "width": 550,
+              "height": 625,
+              "rotatedWidth": 550,
+              "rotatedHeight": 625
+            },
+            "rawWidth": 550,
+            "rawHeight": 625,
+            "width": 556,
+            "height": 631,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/4d/4d12aa40-b59e-4953-a3f4-4da1b632ceb7.png",
+            "x": 398,
+            "y": 0,
+            "rotatedWidth": 556,
+            "rotatedHeight": 631
+          },
+          {
+            "name": "btn_dian0",
+            "uuid": "137cf0ca-3fc2-4430-ad82-f633f860f17d",
+            "textureUuid": "d682c786-b1f7-40f0-bba6-bbabfa64e947",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855041_image_1.png",
+            "trim": {
+              "x": 957,
+              "y": 3,
+              "width": 46,
+              "height": 46,
+              "rotatedWidth": 46,
+              "rotatedHeight": 46
+            },
+            "rawWidth": 50,
+            "rawHeight": 50,
+            "width": 52,
+            "height": 52,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/d6/d682c786-b1f7-40f0-bba6-bbabfa64e947.png",
+            "x": 954,
+            "y": 0,
+            "rotatedWidth": 52,
+            "rotatedHeight": 52
+          },
+          {
+            "name": "btn-dian2",
+            "uuid": "2938fbae-cdac-4790-b662-b2e12a96a455",
+            "textureUuid": "b1de58ba-1f86-4441-a977-727cc5964963",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855041_image_4.png",
+            "trim": {
+              "x": 957,
+              "y": 55,
+              "width": 46,
+              "height": 46,
+              "rotatedWidth": 46,
+              "rotatedHeight": 46
+            },
+            "rawWidth": 50,
+            "rawHeight": 50,
+            "width": 52,
+            "height": 52,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/b1/b1de58ba-1f86-4441-a977-727cc5964963.png",
+            "x": 954,
+            "y": 52,
+            "rotatedWidth": 52,
+            "rotatedHeight": 52
+          },
+          {
+            "name": "btn-dian",
+            "uuid": "2f4c0cfc-f38b-4e8a-9731-bc0eca1c2df7",
+            "textureUuid": "eead330d-55ee-4ab9-aa83-8ad4939a54ff",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855042_image_5.png",
+            "trim": {
+              "x": 957,
+              "y": 107,
+              "width": 46,
+              "height": 46,
+              "rotatedWidth": 46,
+              "rotatedHeight": 46
+            },
+            "rawWidth": 50,
+            "rawHeight": 50,
+            "width": 52,
+            "height": 52,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/ee/eead330d-55ee-4ab9-aa83-8ad4939a54ff.png",
+            "x": 954,
+            "y": 104,
+            "rotatedWidth": 52,
+            "rotatedHeight": 52
+          },
+          {
+            "name": "btn-zhihui",
+            "uuid": "99bb6d3d-5a21-4b29-a310-e200911aa0c8",
+            "textureUuid": "494a2b79-e291-4358-8288-79b425a4fc70",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855043_image_10.png",
+            "trim": {
+              "x": 3,
+              "y": 1201,
+              "width": 252,
+              "height": 100,
+              "rotatedWidth": 252,
+              "rotatedHeight": 100
+            },
+            "rawWidth": 252,
+            "rawHeight": 100,
+            "width": 258,
+            "height": 106,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/49/494a2b79-e291-4358-8288-79b425a4fc70.png",
+            "x": 0,
+            "y": 1198,
+            "rotatedWidth": 258,
+            "rotatedHeight": 106
+          },
+          {
+            "name": "btn-queren",
+            "uuid": "a2e35cf8-b207-4717-becc-48579196bc4d",
+            "textureUuid": "6ddb7bb0-3e4b-4dfc-adff-6172be198544",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855043_image_11.png",
+            "trim": {
+              "x": 261,
+              "y": 1201,
+              "width": 252,
+              "height": 100,
+              "rotatedWidth": 252,
+              "rotatedHeight": 100
+            },
+            "rawWidth": 252,
+            "rawHeight": 100,
+            "width": 258,
+            "height": 106,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/6d/6ddb7bb0-3e4b-4dfc-adff-6172be198544.png",
+            "x": 258,
+            "y": 1198,
+            "rotatedWidth": 258,
+            "rotatedHeight": 106
+          },
+          {
+            "name": "img-men",
+            "uuid": "32a3cab8-0bfe-47eb-b349-0495e11f5c7d",
+            "textureUuid": "6a290578-b0b2-450e-bc59-84ff5f42bfc3",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855042_image_7.png",
+            "trim": {
+              "x": 519,
+              "y": 634,
+              "width": 70,
+              "height": 497,
+              "rotatedWidth": 497,
+              "rotatedHeight": 70
+            },
+            "rawWidth": 70,
+            "rawHeight": 497,
+            "width": 76,
+            "height": 503,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/6a/6a290578-b0b2-450e-bc59-84ff5f42bfc3.png",
+            "x": 516,
+            "y": 631,
+            "rotated": true,
+            "rotatedWidth": 503,
+            "rotatedHeight": 76
+          },
+          {
+            "name": "单行题干背景",
+            "uuid": "321eacaa-024c-44fd-9bc1-7f944608d378",
+            "textureUuid": "989375a3-2b75-4545-8d83-aa78c516867b",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855042_image_6.png",
+            "trim": {
+              "x": 401,
+              "y": 634,
+              "width": 291,
+              "height": 97,
+              "rotatedWidth": 97,
+              "rotatedHeight": 291
+            },
+            "rawWidth": 298,
+            "rawHeight": 97,
+            "width": 297,
+            "height": 103,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/98/989375a3-2b75-4545-8d83-aa78c516867b.png",
+            "x": 398,
+            "y": 631,
+            "rotated": true,
+            "rotatedWidth": 103,
+            "rotatedHeight": 297
+          },
+          {
+            "name": "1",
+            "uuid": "7b396f16-bd0a-4540-9897-4c7c33e87652",
+            "textureUuid": "6039d2c7-cfcd-4844-a420-3c5f1f1fe2be",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855042_image_9.png",
+            "trim": {
+              "x": 504,
+              "y": 710,
+              "width": 424,
+              "height": 504,
+              "rotatedWidth": 504,
+              "rotatedHeight": 424
+            },
+            "rawWidth": 424,
+            "rawHeight": 504,
+            "width": 430,
+            "height": 510,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/60/6039d2c7-cfcd-4844-a420-3c5f1f1fe2be.png",
+            "x": 501,
+            "y": 707,
+            "rotated": true,
+            "rotatedWidth": 510,
+            "rotatedHeight": 430
+          },
+          {
+            "name": "topBg",
+            "uuid": "202d3243-77af-4428-9cae-aa034e53f009",
+            "textureUuid": "76d0f143-e1ed-488b-b757-7972a25f01e3",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855041_image_3.png",
+            "trim": {
+              "x": 401,
+              "y": 931,
+              "width": 221,
+              "height": 96,
+              "rotatedWidth": 96,
+              "rotatedHeight": 221
+            },
+            "rawWidth": 221,
+            "rawHeight": 96,
+            "width": 227,
+            "height": 102,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/76/76d0f143-e1ed-488b-b757-7972a25f01e3.png",
+            "x": 398,
+            "y": 928,
+            "rotated": true,
+            "rotatedWidth": 102,
+            "rotatedHeight": 227
+          },
+          {
+            "name": "kuang",
+            "uuid": "15031d61-f351-4f0d-bd68-81018a7de538",
+            "textureUuid": "7ddfcd19-a13e-4660-a337-82add288800c",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855041_image_2.png",
+            "trim": {
+              "x": 519,
+              "y": 1140,
+              "width": 365,
+              "height": 96,
+              "rotatedWidth": 365,
+              "rotatedHeight": 96
+            },
+            "rawWidth": 369,
+            "rawHeight": 100,
+            "width": 371,
+            "height": 102,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/7d/7ddfcd19-a13e-4660-a337-82add288800c.png",
+            "x": 516,
+            "y": 1137,
+            "rotatedWidth": 371,
+            "rotatedHeight": 102
+          },
+          {
+            "name": "btn-kuan",
+            "uuid": "083b3b1f-5705-437a-8cd0-e5eddfdac1ea",
+            "textureUuid": "f1f235f4-2767-48ae-a02a-27c1c62ac668",
+            "path": "D:\\beiJing\\LianXianTiMoBan\\temp\\trimImages\\spritesheet_js_1700054855014_image_0.png",
+            "trim": {
+              "x": 519,
+              "y": 1242,
+              "width": 351,
+              "height": 82,
+              "rotatedWidth": 351,
+              "rotatedHeight": 82
+            },
+            "rawWidth": 351,
+            "rawHeight": 82,
+            "width": 357,
+            "height": 88,
+            "originalPath": "D:/beiJing/LianXianTiMoBan/library/imports/f1/f1f235f4-2767-48ae-a02a-27c1c62ac668.png",
+            "x": 516,
+            "y": 1239,
+            "rotatedWidth": 357,
+            "rotatedHeight": 88
+          }
+        ],
+        "width": 1019,
+        "height": 1327,
+        "name": "AutoAtlas-1",
+        "imagePath": "D:\\beiJing\\LianXianTiMoBan\\temp\\TexturePacker\\preview\\assets\\game\\res\\images\\gameUi\\AutoAtlas.pac\\AutoAtlas-1.png"
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

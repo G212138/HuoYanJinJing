@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WPJ_DANJUN",
+    "texture": "ecb47f59-592c-4906-ad8a-c385ddf361ec",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      2042,
+      1269
+    ],
+    "offset": [
+      0,
+      386.5
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

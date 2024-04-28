@@ -1,0 +1,317 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Cocos Creator</title>
+
+    <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+    <meta name="viewport"
+        content="width=device-width,user-scalable=0,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+
+    <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- force webkit on 360 -->
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <!-- force edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- force full screen on some browser -->
+    <meta name="full-screen" content="yes" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+
+    <!-- force screen orientation on some browser -->
+    <meta name="screen-orientation" content="<%=orientation%>" />
+    <meta name="x5-orientation" content="<%=orientation%>" />
+
+    <!--fix fireball/issues/3568 -->
+    <!--<meta name="browsermode" content="application">-->
+    <meta name="x5-page-mode" content="app" />
+
+    <!--<link rel="apple-touch-icon" href=".png" />-->
+    <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+    <link rel="stylesheet" type="text/css" href="style-mobile.css" />
+
+    <style type="text/css">
+        #loading-canvas {
+            margin: 20vh auto;
+            display: block;
+        }
+
+        #splash {
+            background: #171717;
+            background-image: none;
+        }
+    </style>
+
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            /* background: #ffffff; */
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        #loading-full {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-image: url('./bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            pointer-events: none;
+        }
+
+        #loading-full .loading-progress {
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            width: 80%;
+            height: 22px;
+            border-radius: 22px;
+            background-color: #4095d9;
+            transform: translateX(-50%);
+        }
+
+        #loading-full .loading-progress::before,
+        #loading-full .loading-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: calc(100% - 2px);
+            border-radius: 22px;
+            box-sizing: border-box;
+            background-color: transparent;
+        }
+
+        #loading-full .loading-progress::before {
+            border: 2.5px solid #6be0ff;
+        }
+
+        #loading-full .loading-progress::after {
+            top: 1px;
+            left: 1px;
+            border: 2.5px solid #426aff;
+        }
+
+        #loading-full .loading-progress-inner {
+            position: absolute;
+            top: 4.5px;
+            left: 4.5px;
+            width: 0;
+            height: 12px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        #loading-full .loading-progress-inner::before,
+        #loading-full .loading-progress-inner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        #loading-full .loading-progress-inner::before {
+            background: linear-gradient(to bottom, #cbfafd, #fff 20%, #fff 80%, #cbfafd);
+        }
+
+        #loading-full .loading-progress-inner::after {
+            top: 4px;
+            left: 1px;
+            width: calc(100% - 2px);
+            background: linear-gradient(to bottom, #9ef4f9, #26bbe8);
+            filter: blur(1.6px);
+        }
+
+        #loading-full .loading-progress-text {
+            position: absolute;
+            left: 4.5px;
+            top: 2.5px;
+            font-size: 12px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+    <div id="splash">
+        <div class="progress-bar stripes" style="display: none">
+            <span style="width: 0%"></span>
+        </div>
+    </div>
+    <div id="loading-full">
+        <div class="loading-progress">
+            <div class="loading-progress-inner"></div>
+            <span class="loading-progress-text">0%</span>
+        </div>
+    </div>
+
+    <script>
+        this.theRequest = new Object();
+        var url = location.search; //获取url中"?"符后的字串
+
+        if (url.indexOf('?') != -1) {
+            var str = url.substr(1);
+            var strs = str.split('&');
+            for (var i = 0; i < strs.length; i++) {
+                this.theRequest[strs[i].split('=')[0]] = decodeURIComponent(strs[i].split('=')[1]);
+            }
+        }
+        var bPreload = this.theRequest['bPreload']; //true为cdn   false为预加载
+        var isOnline = this.theRequest['env'] == 'online' ? true : false; //判断是线上环境还是测试环境。
+        window['isOnline'] = isOnline;
+    </script>
+
+    <script src="game-msg.min.js" charset="utf-8"></script>
+    <script src="src/settings.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <script src="webgl-debug.js" charset="utf-8"></script>
+    <script>
+        //监听SDK传来的重载消息
+        gameMsg.on_client_event(
+            'reload',
+            function () {
+                location.reload();
+            }.bind(this),
+        );
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            //错误上报
+            var url = location.search; //获取url中"?"符后的字串
+            var theRequest = new Object();
+            if (url.indexOf('?') != -1) {
+                var str = url.substr(1);
+                var strs = str.split('&');
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split('=')[0]] = decodeURIComponent(strs[i].split('=')[1]);
+                }
+            }
+
+            window.addEventListener(
+                'error',
+                function (event) {
+                    console.log(event.error, '       addEventListener');
+                    aliLogMsg.error('CoursewareErrorLogEvent', event.error.stack.split('\n'));
+                },
+                true,
+            );
+
+            window.console.error = function () {
+                if (typeof arguments[0] == 'object') {
+                    var alt = {};
+                    Object.getOwnPropertyNames(arguments[0]).forEach(function (key) {
+                        alt[key] = this[key];
+                    }, arguments[0]);
+                    aliLogMsg.error('CoursewareErrorLogEvent', alt);
+                } else {
+                    aliLogMsg.error('CoursewareErrorLogEvent', arguments[0]);
+                }
+                // consoleError && consoleError.apply(window, arguments);
+                console.warn.apply(window, ['console.error: ', ...arguments]);
+            };
+
+            //新课堂上报事件
+            gameMsg.engine_load_start('cocos_creator', '2.4.5');
+            var gameId = theRequest['gameId'] == '' || theRequest['gameId'] == undefined ? -1 : theRequest['gameId'];
+            aliLogMsg.init(
+                theRequest['chapterId'],
+                theRequest['userId'],
+                theRequest['coursewareId'],
+                gameId,
+                window['env'],
+            );
+            aliLogMsg.engineLoadStart();
+
+            //引擎加载
+            var splash = document.getElementById('splash');
+            splash.style.display = 'block';
+
+            var cocos2d = document.createElement('script');
+            cocos2d.async = true;
+            cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.js' : 'cocos2d-js-min.js';
+
+            var engineLoaded = function () {
+                //新课堂上报事件
+                gameMsg.engine_load_complete();
+                aliLogMsg.engineLoadEnd();
+
+                document.body.removeChild(cocos2d);
+                cocos2d.removeEventListener('load', engineLoaded, false);
+                window.boot();
+            };
+            cocos2d.addEventListener('load', engineLoaded, false);
+            document.body.appendChild(cocos2d);
+
+            // 处理loading
+            const loadingFull = document.getElementById('loading-full');
+            const loadingProgress = loadingFull.querySelector('.loading-progress');
+            const loadingProgressInner = loadingFull.querySelector('.loading-progress-inner');
+            const loadingProgressText = loadingFull.querySelector('.loading-progress-text');
+            let fullLoadingWidth = loadingProgress.getBoundingClientRect().width - 8;
+            let percent = 0;
+            function updateLoading() {
+                // 计算当前宽度
+                const currentWidth = fullLoadingWidth * percent / 100
+                // 进度条定位
+                loadingProgressInner.style.width = currentWidth + 'px'
+                if (currentWidth >= fullLoadingWidth) {
+                    loadingProgressInner.style.width = fullLoadingWidth + 'px'
+                }
+                // 文字定位
+                loadingProgressText.innerText = Math.floor(percent) + '%'
+                const { width: textWidth } = loadingProgressText.getBoundingClientRect()
+                loadingProgressText.style.left = currentWidth + 9 + 'px'
+                if (currentWidth + 9 >= fullLoadingWidth - textWidth) {
+                    loadingProgressText.style.left = fullLoadingWidth - textWidth + 'px'
+                }
+            }
+            window.addEventListener('resize', () => {
+                fullLoadingWidth = loadingProgress.getBoundingClientRect().width - 8;
+                updateLoading()
+            })
+            window.addEventListener('message', function (e) {
+                let data = e.data;
+                if (data.type == 'cocos_load_res_progress') {
+                    console.log('cocos_load_res_progress', data.progress);
+                    percent = data.progress;
+                    updateLoading()
+                }
+            }.bind(this));
+
+            // 监听 webgl lost 事件
+            var canvas = document.getElementById('GameCanvas');
+            canvas.addEventListener(
+                'webglcontextlost',
+                (event) => {
+                    console.log('webglcontextlost');
+                    event.preventDefault();
+                    iframeMsg.request_webglcontextlost();
+                },
+                false,
+            );
+        })();
+    </script>
+</body>
+
+</html>

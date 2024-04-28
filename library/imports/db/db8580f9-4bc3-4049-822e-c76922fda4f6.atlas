@@ -1,0 +1,55 @@
+
+1xing.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ANNIU_dian1
+  rotate: false
+  xy: 1758, 18
+  size: 25, 25
+  orig: 31, 31
+  offset: 3, 3
+  index: -1
+GOOD_XX1
+  rotate: false
+  xy: 1687, 3
+  size: 41, 40
+  orig: 45, 44
+  offset: 2, 2
+  index: -1
+GOOD_dd1
+  rotate: false
+  xy: 1730, 18
+  size: 26, 25
+  orig: 30, 29
+  offset: 2, 2
+  index: -1
+GOOD_diguang
+  rotate: false
+  xy: 2, 150
+  size: 1538, 221
+  orig: 1538, 221
+  offset: 0, 0
+  index: -1
+GOOD_good
+  rotate: true
+  xy: 1687, 45
+  size: 326, 105
+  orig: 334, 112
+  offset: 4, 4
+  index: -1
+GOOD_guang1
+  rotate: true
+  xy: 1542, 2
+  size: 369, 143
+  orig: 377, 150
+  offset: 4, 4
+  index: -1
+GOOD_guang2
+  rotate: false
+  xy: 2, 58
+  size: 1090, 90
+  orig: 1111, 101
+  offset: 10, 5
+  index: -1

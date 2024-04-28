@@ -1,0 +1,1047 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "2xing",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "AiTC3T6aUZTFhGoOHHDb2PxoM8I",
+      "spine": "3.8.99",
+      "x": -770.67,
+      "y": -476.14,
+      "width": 1538,
+      "height": 221,
+      "images": "./images/",
+      "audio": "D:/工作/新建文件夹/培优素养课/创新思维--交互游戏/新交互组工作/交互制作/制作整理二星"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone81",
+        "parent": "root",
+        "x": -23.19,
+        "y": -600.89
+      },
+      {
+        "name": "bone2",
+        "parent": "bone81",
+        "x": -738.31,
+        "y": 263.68
+      },
+      {
+        "name": "bone41",
+        "parent": "bone2",
+        "x": 666.63,
+        "y": 109.2
+      },
+      {
+        "name": "bone7_qqxx",
+        "parent": "bone81",
+        "x": -704.48,
+        "y": 157.5,
+        "color": "ff0000ff"
+      },
+      {
+        "name": "bone12_qqxx",
+        "parent": "bone7_qqxx",
+        "length": 100,
+        "x": 18.84,
+        "y": 81.15,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone15_qqxx",
+        "parent": "bone12_qqxx",
+        "length": 70.8,
+        "x": 684.69,
+        "y": -0.39,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone16_qqxx",
+        "parent": "bone12_qqxx",
+        "x": 691.24,
+        "y": -205.09,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone17_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 162.76,
+        "y": 267.41,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone18_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -183.15,
+        "y": 263.35,
+        "scaleX": 0.8,
+        "scaleY": 0.8,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone19_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 45.26,
+        "y": 145.54,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone20_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -266.76,
+        "y": 201.85,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone21_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 191.71,
+        "y": 154.13,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone22_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 308.86,
+        "y": 180.23,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone23_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -427.77,
+        "y": 179.32,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone24_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -186.6,
+        "y": 157.33,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone25_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -98.76,
+        "y": 293.36,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone26_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -85.27,
+        "y": 129.65,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone27_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 281.6,
+        "y": 237.21,
+        "scaleX": 0.65,
+        "scaleY": 0.65,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone28_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 433.64,
+        "y": 215.49,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone29_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 340.08,
+        "y": 193.9,
+        "scaleX": 0.45,
+        "scaleY": 0.45,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone30_qqxx",
+        "parent": "bone16_qqxx",
+        "x": 45.17,
+        "y": 272.62,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone31_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -41.92,
+        "y": 258.78,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone33_qqxx",
+        "parent": "bone16_qqxx",
+        "x": -151.97,
+        "y": 114,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "df38efff"
+      },
+      {
+        "name": "GOOD_good",
+        "parent": "bone7_qqxx",
+        "length": 24.35,
+        "rotation": 90,
+        "x": 712.65,
+        "y": 37.63,
+        "color": "df38efff"
+      },
+      {
+        "name": "bone14_qqxx",
+        "parent": "bone7_qqxx",
+        "x": 711.57,
+        "y": 81.42,
+        "color": "df38efff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "GOOD_XX1",
+        "bone": "bone17_qqxx",
+        "attachment": "GOOD_XX1_ss"
+      },
+      {
+        "name": "GOOD_XX6",
+        "bone": "bone19_qqxx",
+        "attachment": "GOOD_XX1_ss"
+      },
+      {
+        "name": "GOOD_XX5",
+        "bone": "bone18_qqxx",
+        "attachment": "GOOD_XX1_ss"
+      },
+      {
+        "name": "GOOD_XX7",
+        "bone": "bone20_qqxx",
+        "attachment": "GOOD_XX1_ss"
+      },
+      {
+        "name": "GOOD_dd1",
+        "bone": "bone21_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd11",
+        "bone": "bone31_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd7",
+        "bone": "bone27_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd8",
+        "bone": "bone28_qqxx",
+        "attachment": "ANNIU_dian1_ss"
+      },
+      {
+        "name": "GOOD_dd3",
+        "bone": "bone23_qqxx",
+        "attachment": "ANNIU_dian1_ss"
+      },
+      {
+        "name": "GOOD_dd4",
+        "bone": "bone24_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd5",
+        "bone": "bone25_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd6",
+        "bone": "bone26_qqxx",
+        "attachment": "ANNIU_dian1_ss"
+      },
+      {
+        "name": "GOOD_dd10",
+        "bone": "bone30_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd12",
+        "bone": "bone33_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_dd9",
+        "bone": "bone29_qqxx",
+        "attachment": "ANNIU_dian1_ss"
+      },
+      {
+        "name": "GOOD_dd2",
+        "bone": "bone22_qqxx",
+        "attachment": "GOOD_dd1_ss"
+      },
+      {
+        "name": "GOOD_diguang",
+        "bone": "bone12_qqxx",
+        "attachment": "GOOD_diguang_ss"
+      },
+      {
+        "name": "GOOD_guang1",
+        "bone": "bone14_qqxx",
+        "attachment": "GOOD_guang1_ss"
+      },
+      {
+        "name": "GOOD_guang2",
+        "bone": "bone15_qqxx",
+        "attachment": "GOOD_guang2_ss"
+      },
+      {
+        "name": "GOOD_good",
+        "bone": "GOOD_good",
+        "attachment": "cool"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "GOOD_XX1": {
+            "GOOD_XX1_ss": {
+              "x": -0.34,
+              "y": 0.77,
+              "width": 45,
+              "height": 44
+            }
+          },
+          "GOOD_XX5": {
+            "GOOD_XX1_ss": {
+              "x": -0.34,
+              "y": 0.77,
+              "width": 45,
+              "height": 44
+            }
+          },
+          "GOOD_XX6": {
+            "GOOD_XX1_ss": {
+              "x": -0.34,
+              "y": 0.77,
+              "width": 45,
+              "height": 44
+            }
+          },
+          "GOOD_XX7": {
+            "GOOD_XX1_ss": {
+              "x": -0.34,
+              "y": 0.77,
+              "width": 45,
+              "height": 44
+            }
+          },
+          "GOOD_dd1": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd2": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd3": {
+            "ANNIU_dian1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 31,
+              "height": 31
+            }
+          },
+          "GOOD_dd4": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd5": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd6": {
+            "ANNIU_dian1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 31,
+              "height": 31
+            }
+          },
+          "GOOD_dd7": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd8": {
+            "ANNIU_dian1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 31,
+              "height": 31
+            }
+          },
+          "GOOD_dd9": {
+            "ANNIU_dian1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 31,
+              "height": 31
+            }
+          },
+          "GOOD_dd10": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd11": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_dd12": {
+            "GOOD_dd1_ss": {
+              "x": 0.21,
+              "y": -0.44,
+              "width": 30,
+              "height": 29
+            }
+          },
+          "GOOD_diguang": {
+            "GOOD_diguang_ss": {
+              "type": "mesh",
+              "uvs": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ],
+              "triangles": [
+                1,
+                2,
+                3,
+                1,
+                3,
+                0
+              ],
+              "vertices": [
+                1476.16,
+                -113.9,
+                -61.84,
+                -113.9,
+                -61.84,
+                107.1,
+                1476.16,
+                107.1
+              ],
+              "hull": 4,
+              "edges": [
+                0,
+                2,
+                2,
+                4,
+                4,
+                6,
+                0,
+                6
+              ],
+              "width": 1538,
+              "height": 221
+            }
+          },
+          "GOOD_good": {
+            "cool": {
+              "x": 41.62,
+              "y": -4.35,
+              "rotation": -90,
+              "width": 321,
+              "height": 114
+            }
+          },
+          "GOOD_guang1": {
+            "GOOD_guang1_ss": {
+              "x": -32.07,
+              "y": -1.16,
+              "width": 377,
+              "height": 150
+            }
+          },
+          "GOOD_guang2": {
+            "GOOD_guang2_ss": {
+              "x": 9.97,
+              "y": -3.01,
+              "width": 1111,
+              "height": 101
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "2xing_kaishi": {
+        "slots": {
+          "GOOD_XX1": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_XX5": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_XX6": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_XX7": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd1": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd2": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd3": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd4": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd5": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd6": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd7": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd8": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd9": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd10": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd11": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_dd12": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "GOOD_diguang": {
+            "color": [
+              {
+                "time": 0.8,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1,
+                "color": "ffffff08"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.6,
+                "name": "GOOD_diguang_ss"
+              },
+              {
+                "time": 1.1,
+                "name": null
+              }
+            ]
+          },
+          "GOOD_good": {
+            "color": [
+              {
+                "time": 1.2,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.7,
+                "name": "cool"
+              }
+            ]
+          },
+          "GOOD_guang1": {
+            "color": [
+              {
+                "time": 0.9667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.1,
+                "color": "ffffff07",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2,
+                "color": "ffffff07"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.7,
+                "name": "GOOD_guang1_ss"
+              }
+            ]
+          },
+          "GOOD_guang2": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone21_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": -194.71,
+                "y": 45.38
+              }
+            ]
+          },
+          "bone22_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": -314.01,
+                "y": 18.71
+              }
+            ]
+          },
+          "bone23_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": 420.41,
+                "y": 19.48
+              }
+            ]
+          },
+          "bone24_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": 178.66,
+                "y": 41.46
+              }
+            ]
+          },
+          "bone25_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": 93.06,
+                "y": -94.82
+              }
+            ]
+          },
+          "bone26_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": 78.07,
+                "y": 71.88
+              }
+            ]
+          },
+          "bone27_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": -290.05,
+                "y": -39.06
+              }
+            ]
+          },
+          "bone28_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": -441.19,
+                "y": -15.53
+              }
+            ]
+          },
+          "bone29_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": -346.38,
+                "y": 4
+              }
+            ]
+          },
+          "bone30_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": -53.85,
+                "y": -76.26
+              }
+            ]
+          },
+          "bone31_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": 38.18,
+                "y": -61.48
+              }
+            ]
+          },
+          "bone14_qqxx": {
+            "translate": [
+              {
+                "time": 0.7,
+                "y": -13.62
+              },
+              {
+                "time": 0.8333,
+                "y": 90.82,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "y": -17.03,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.0667
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.7,
+                "x": 0.342,
+                "y": 0.342,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.34,
+                "y": 1.792,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "x": 0.828,
+                "y": 0.828,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.0667
+              }
+            ]
+          },
+          "GOOD_good": {
+            "translate": [
+              {
+                "time": 0.7,
+                "y": 14.55,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "y": 81.79,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "y": -6.94,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.0667
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.7,
+                "x": 0.414,
+                "y": 0.414,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.8333,
+                "x": 1.109,
+                "y": 1.109,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.9667,
+                "x": 0.654,
+                "y": 0.906,
+                "curve": 0.276,
+                "c3": 0.621,
+                "c4": 0.4
+              },
+              {
+                "time": 1.0667,
+                "x": 0.756,
+                "y": 0.919,
+                "curve": 0.333,
+                "c2": 0.33,
+                "c3": 0.758
+              },
+              {
+                "time": 1.1667,
+                "x": 0.964,
+                "y": 0.976
+              }
+            ]
+          },
+          "bone33_qqxx": {
+            "translate": [
+              {
+                "time": 1.3333,
+                "x": 142.15,
+                "y": 86.89
+              }
+            ]
+          },
+          "bone15_qqxx": {
+            "scale": [
+              {
+                "time": 0.9333,
+                "x": 0.2
+              },
+              {
+                "time": 1.1667
+              }
+            ]
+          }
+        },
+        "deform": {
+          "default": {
+            "GOOD_diguang": {
+              "GOOD_diguang_ss": [
+                {
+                  "time": 0.6,
+                  "vertices": [
+                    1803.4648,
+                    0,
+                    1803.4648,
+                    0,
+                    1803.4648,
+                    0,
+                    1803.4648
+                  ],
+                  "curve": 0.25,
+                  "c3": 0.625,
+                  "c4": 0.5
+                },
+                {
+                  "time": 0.7667,
+                  "vertices": [
+                    1.65894,
+                    0,
+                    -90.62561,
+                    0,
+                    -90.62561,
+                    0,
+                    1.65894
+                  ],
+                  "curve": "stepped"
+                },
+                {
+                  "time": 0.8,
+                  "vertices": [
+                    1.65894,
+                    0,
+                    -90.62561,
+                    0,
+                    -90.62561,
+                    0,
+                    1.65894
+                  ],
+                  "curve": 0.375,
+                  "c2": 0.5,
+                  "c3": 0.75
+                },
+                {
+                  "time": 1.1,
+                  "vertices": [
+                    -1995.0089,
+                    68.56506,
+                    -2911.325,
+                    68.56506,
+                    -2911.325,
+                    -62.90082,
+                    -1995.0089,
+                    -62.90082
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\n2xing.png\nsize: 2048,512\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nANNIU_dian1_ss\n  rotate: false\n  xy: 1758, 30\n  size: 25, 25\n  orig: 31, 31\n  offset: 3, 3\n  index: -1\nGOOD_XX1_ss\n  rotate: false\n  xy: 1687, 15\n  size: 41, 40\n  orig: 45, 44\n  offset: 2, 2\n  index: -1\nGOOD_dd1_ss\n  rotate: false\n  xy: 1730, 30\n  size: 26, 25\n  orig: 30, 29\n  offset: 2, 2\n  index: -1\nGOOD_diguang_ss\n  rotate: false\n  xy: 2, 150\n  size: 1538, 221\n  orig: 1538, 221\n  offset: 0, 0\n  index: -1\nGOOD_guang1_ss\n  rotate: true\n  xy: 1542, 2\n  size: 369, 143\n  orig: 377, 150\n  offset: 4, 4\n  index: -1\nGOOD_guang2_ss\n  rotate: false\n  xy: 2, 58\n  size: 1090, 90\n  orig: 1111, 101\n  offset: 10, 5\n  index: -1\ncool\n  rotate: true\n  xy: 1687, 57\n  size: 314, 108\n  orig: 321, 114\n  offset: 3, 3\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "0f0e0ffa-7eac-4751-8113-e291519bef40"
+    }
+  ],
+  "textureNames": [
+    "2xing.png"
+  ],
+  "scale": 1
+}
