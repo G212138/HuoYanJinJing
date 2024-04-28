@@ -77,7 +77,13 @@ class UIHelpClass {
      */
     public showStarCount(isShowReplay?: boolean, starNum?: number): void {
         let starCount = UIManager.getUI(StarCount);
-        starNum = SyncDataManager.getSyncData().customSyncData.xingCount;
+        if (SyncDataManager.getSyncData().customSyncData.answerTimes > 2)  {
+            starNum = 1;
+        } else if (SyncDataManager.getSyncData().customSyncData.answerTimes > 0) {
+            starNum = 2;
+        } else {
+            starNum = 3;
+        }
         if (!starCount) {
             UIManager.openUI(StarCount, null, EPANEL_ZORDER.POPUP, () => {
                 this.showStarCount(isShowReplay, starNum);

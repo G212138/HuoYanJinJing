@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tiegui",
+    "texture": "9f21614d-b70e-42d1-9dc4-1f8a075cccf5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      225,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      225,
+      122
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

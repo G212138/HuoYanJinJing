@@ -5,7 +5,7 @@ cc._RF.push(module, '64363RgvXdCJJdpexRQv89P', 'EditorManager');
 "use strict";
 /**编辑器数据类 */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EditorManager = exports.OptionData = void 0;
+exports.EditorManager = exports.ItemData = void 0;
 /**
  * 编辑器数据，根据游戏自定义内部数据
  */
@@ -28,22 +28,20 @@ var EditorData = /** @class */ (function () {
         // 新增属性，附加题，any根据实际情况自定义，但是必须为数组已关卡形式出现
         this.additional = [];
         // TODO 自定义数据
-        this.GameData = null;
-        this.isPanTi = true;
-        this.isTiaoTi = true;
+        this.countdown = 120;
+        this.wrongTime = 5;
+        this.itemData = [new ItemData()];
     }
     return EditorData;
 }());
-var OptionData = /** @class */ (function () {
-    function OptionData() {
-        this.countValue1 = "";
-        this.countValue2 = "";
-        this.titleData = [];
-        this.titleData2 = [];
+var ItemData = /** @class */ (function () {
+    function ItemData() {
+        this.type = 0;
+        this.count = 1;
     }
-    return OptionData;
+    return ItemData;
 }());
-exports.OptionData = OptionData;
+exports.ItemData = ItemData;
 var EditorManagerClass = /** @class */ (function () {
     function EditorManagerClass() {
         /** 编辑器数据 */

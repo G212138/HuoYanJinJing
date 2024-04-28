@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_luyinji",
+    "texture": "569c578d-dc61-4f77-9ebd-baed43528547",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      221,
+      128
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      221,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

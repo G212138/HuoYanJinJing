@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "danjun-danyou",
+    "texture": "bf103ba4-7e68-46f3-8b96-206060c87872",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      491,
+      361
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      491,
+      361
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

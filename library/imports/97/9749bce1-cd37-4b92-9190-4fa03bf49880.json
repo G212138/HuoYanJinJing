@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_wuxing",
+    "texture": "3ad19772-99c7-46b9-97d0-c3fe52397393",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      159,
+      176
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      159,
+      176
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

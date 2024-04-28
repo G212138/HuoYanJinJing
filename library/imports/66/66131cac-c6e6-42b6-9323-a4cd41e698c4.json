@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "feidiebkaixin",
+    "texture": "a7944289-4632-4cfc-9227-ff6a2bf6289b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      397,
+      334
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      397,
+      334
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

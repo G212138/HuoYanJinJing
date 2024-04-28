@@ -13,22 +13,12 @@ var CustomSyncData = /** @class */ (function () {
     function CustomSyncData() {
         this.curLevel = 0; // 当前关卡(第一关为0)
         // TODO 自定义
-        this.joinFJT = false;
-        this.isGameStart = false;
-        this.isGameOver = false;
-        this.gameData1 = {
-            xingBie: -1,
-            nianLing: 7,
-            AgeDis: 60
-        };
-        this.gameData2 = {
-            shiWuIndex: -1,
-            yunDongIndex: -1,
-            weightDis: 0,
-            weightValue: 0,
-            heightDis: 0,
-            heightValue: 0,
-        };
+        this.curStep = 0; // 步数
+        this.allHideItem = []; // 隐藏的物品
+        this.curHideItem = []; // 隐藏的物品
+        this.isClickStart = false; // 是否点击开始
+        this.countdown = 0; // 倒计时
+        this.answerTimes = 0; // 答题次数
     }
     return CustomSyncData;
 }());

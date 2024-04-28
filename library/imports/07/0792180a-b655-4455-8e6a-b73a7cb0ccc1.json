@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_taideng",
+    "texture": "0062cd0f-76a5-4cab-9da8-64c5427f5fc0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      158,
+      213
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      158,
+      213
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

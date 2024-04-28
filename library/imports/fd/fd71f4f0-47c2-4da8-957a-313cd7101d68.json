@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_huixuanbiao",
+    "texture": "9d6237b5-9a0a-47fa-b413-7e21ce9e5b69",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      216,
+      101
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      216,
+      101
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

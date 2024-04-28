@@ -23,18 +23,14 @@ class EditorData {
     public additional: any[] = [];
 
     // TODO 自定义数据
-    public GameData: any = null;
-
-    public isPanTi: boolean = true;
-    public isTiaoTi: boolean = true;
+    public countdown: number = 120;
+    public wrongTime: number = 5;
+    public itemData: ItemData[] = [new ItemData()];
 }
 
-
-export class OptionData {
-    public countValue1 = "";
-    public countValue2 = "";
-    public titleData = [];
-    public titleData2 = [];
+export class ItemData {
+    type: number = 0;
+    count: number = 1;
 }
 
 class EditorManagerClass {

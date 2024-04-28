@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_qiaokeli",
+    "texture": "346f1583-c00f-439c-ac81-6bf2e89be73c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      138,
+      167
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      138,
+      167
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

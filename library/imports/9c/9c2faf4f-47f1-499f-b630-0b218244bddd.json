@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zailaiyici-dianji",
+    "texture": "9cfda6ee-84c3-4dc6-adab-27fa0b6760ca",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      410,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

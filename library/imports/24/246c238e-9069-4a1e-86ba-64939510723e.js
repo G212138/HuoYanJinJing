@@ -24,8 +24,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var ListenerManager_1 = require("../../../../frame/scripts/Manager/ListenerManager");
+var SyncDataManager_1 = require("../../../../frame/scripts/Manager/SyncDataManager");
 var BaseGamePanel_1 = require("../../../../frame/scripts/UI/Panel/BaseGamePanel");
+var CustomSyncData_1 = require("../../Data/CustomSyncData");
 var EventType_1 = require("../../Data/EventType");
+var EditorManager_1 = require("../../Manager/EditorManager");
+var GameLayer_1 = require("../layer/GameLayer");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var GamePanel = /** @class */ (function (_super) {
     __extends(GamePanel, _super);
@@ -51,6 +55,8 @@ var GamePanel = /** @class */ (function (_super) {
     GamePanel.prototype.setPanel = function () {
         _super.prototype.setPanel.call(this);
         // TODO 业务逻辑
+        console.log("EditorManager.editorData.itemData", EditorManager_1.EditorManager.editorData.itemData);
+        this.node.getComponent(GameLayer_1.default).init();
     };
     /**
      * 心跳回调（当actionId不相等时才会触发）
@@ -59,6 +65,7 @@ var GamePanel = /** @class */ (function (_super) {
     GamePanel.prototype.onRecoveryData = function (recovery) {
         _super.prototype.onRecoveryData.call(this, recovery);
         console.log("==========重连=============");
+        this.node.getComponent(GameLayer_1.default).init();
     };
     /**
      * 作答正确
@@ -89,6 +96,8 @@ var GamePanel = /** @class */ (function (_super) {
      */
     GamePanel.prototype.onReplay = function () {
         _super.prototype.onReplay.call(this);
+        SyncDataManager_1.SyncDataManager.getSyncData().customSyncData = new CustomSyncData_1.CustomSyncData();
+        this.node.getComponent(GameLayer_1.default).init();
     };
     // /**
     // * 附加题

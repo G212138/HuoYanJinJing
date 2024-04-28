@@ -3,6 +3,8 @@ import { SyncData, SyncDataManager } from '../../../../frame/scripts/Manager/Syn
 import BaseGamePanel from '../../../../frame/scripts/UI/Panel/BaseGamePanel';
 import { CustomSyncData } from '../../Data/CustomSyncData';
 import { EventType } from '../../Data/EventType';
+import { EditorManager } from '../../Manager/EditorManager';
+import GameLayer from '../layer/GameLayer';
 
 const { ccclass, property } = cc._decorator;
 
@@ -31,7 +33,8 @@ export default class GamePanel extends BaseGamePanel {
     protected setPanel() {
         super.setPanel();
         // TODO 业务逻辑
-        
+        console.log("EditorManager.editorData.itemData", EditorManager.editorData.itemData);
+        this.node.getComponent(GameLayer).init();
     }
 
     /**
@@ -41,6 +44,7 @@ export default class GamePanel extends BaseGamePanel {
     protected onRecoveryData(recovery: SyncData): void {
         super.onRecoveryData(recovery);
         console.log("==========重连=============");
+        this.node.getComponent(GameLayer).init();
     }
 
     /**
@@ -74,7 +78,8 @@ export default class GamePanel extends BaseGamePanel {
      */
     protected onReplay() {
         super.onReplay();
-        
+        SyncDataManager.getSyncData().customSyncData = new CustomSyncData();
+        this.node.getComponent(GameLayer).init();
     }
 
     // /**

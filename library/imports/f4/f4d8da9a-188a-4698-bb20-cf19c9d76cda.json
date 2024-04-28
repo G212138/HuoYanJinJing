@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_dajian",
+    "texture": "568502ed-e991-4ad1-8138-8c5796973f34",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      209,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      209,
+      102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_sanjiaoqi",
+    "texture": "71daf6dc-6eca-48df-89c4-06b93b6e9b1a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      252,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      252,
+      83
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

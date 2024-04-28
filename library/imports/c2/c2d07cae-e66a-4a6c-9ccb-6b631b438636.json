@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "danjunjiesuan-kaixin",
+    "texture": "07f31a21-2fbc-468b-9fb5-895a60c45d76",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      511,
+      361
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      511,
+      361
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

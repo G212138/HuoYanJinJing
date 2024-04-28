@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tigan",
+    "texture": "f1e0a755-cc68-4bfc-8b56-ce7b6fe628d3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      686,
+      122
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      686,
+      122
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

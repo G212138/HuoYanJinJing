@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zailaiyici-suoding",
+    "texture": "0e3dcf11-7727-42c6-aacf-18330221b770",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      410,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

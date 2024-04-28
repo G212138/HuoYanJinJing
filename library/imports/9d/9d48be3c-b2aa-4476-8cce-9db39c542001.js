@@ -18,16 +18,7 @@ var EventType;
     EventType["GAME_OVER"] = "GAME_OVER";
     EventType["REPORT_WRONG"] = "REPORT_WRONG";
     EventType["REPORT_RIGHT"] = "REPORT_RIGHT";
-    EventType["TISHI"] = "TISHI";
-    EventType["SET_GAMEINGTIP"] = "SET_GAMEINGTIP";
-    EventType["NEXTTI"] = "NEXTTI";
-    EventType["QINGQIU_COUNTDOWN"] = "QINGQIU_COUNTDOWN";
-    EventType["GET_COUNTDOWN"] = "GET_COUNTDOWN";
-    EventType["DAOJISHI_OVER"] = "DAOJISHI_OVER";
-    EventType["clickSave"] = "clickSave";
-    EventType["CLICK_START"] = "CLICK_START";
-    EventType["CLICK_END"] = "CLICK_END";
-    EventType["AGE_SLIDER"] = "AGE_SLIDER";
+    EventType["ON_CLICK_ITEM"] = "ON_CLICK_ITEM";
 })(EventType = exports.EventType || (exports.EventType = {}));
 
 cc._RF.pop();

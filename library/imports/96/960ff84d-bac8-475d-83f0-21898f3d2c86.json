@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tizi",
+    "texture": "a6a77535-6401-468a-9852-136c92e7f8a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      130,
+      217
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      217
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

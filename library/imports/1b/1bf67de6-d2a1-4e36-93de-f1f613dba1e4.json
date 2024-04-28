@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "danjuncuowuwenzi-shuzi",
+    "texture": "b612b5d9-33a0-465f-9d38-99feb67a2781",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      440,
+      277
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      440,
+      277
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_feidieda",
+    "texture": "ef253ad6-94d8-45a1-8ef2-4649f9398e50",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      646,
+      461
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      646,
+      461
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

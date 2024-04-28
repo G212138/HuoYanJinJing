@@ -5,7 +5,8 @@ import { UIManager } from '../../../../frame/scripts/Manager/UIManager';
 import BaseTeacherPanel from '../../../../frame/scripts/UI/Panel/BaseTeacherPanel';
 import SubmissionPanel from '../../../../frame/scripts/UI/Panel/SubmissionPanel';
 import { UIHelp } from '../../../../frame/scripts/Utils/UIHelp';
-import { EditorManager } from '../../Manager/EditorManager';
+import { EditorManager, ItemData } from '../../Manager/EditorManager';
+import ConfigItem from '../Item/ConfigItem';
 import GamePanel from './GamePanel';
 
 const { ccclass, property } = cc._decorator;
@@ -20,6 +21,15 @@ export default class TeacherPanel extends BaseTeacherPanel {
     private toggle_replay: cc.ToggleContainer = null;
     @property(cc.ToggleContainer)
     private toggle_titleAudio: cc.ToggleContainer = null;
+
+    @property(cc.EditBox)
+    private countdown: cc.EditBox = null;
+    @property(cc.EditBox)
+    private wrongTime: cc.EditBox = null;
+    @property(ConfigItem)
+    private configItem: ConfigItem = null;
+    @property(cc.Node)
+    private configPanel: cc.Node = null;
 
     private _btn_save: cc.Node = null;
     private _btn_view: cc.Node = null;
@@ -59,6 +69,42 @@ export default class TeacherPanel extends BaseTeacherPanel {
 
 
         // this.node_config.getComponent(TeacherConfig).updateOptionPanel();
+
+        this.countdown.string = EditorManager.editorData.countdown.toString();
+        this.wrongTime.string = EditorManager.editorData.wrongTime.toString();
+        this.updateItemPanel();
+    }
+
+    private onEditCountdownChange() {
+        let count = Number(this.countdown.string);
+        if (count < 1 || this.countdown.string == "") {
+            count = 1;
+        }
+        this.countdown.string = count.toString();
+        EditorManager.editorData.countdown = count;
+    }
+
+    private onEditWrongTimeChange() {
+        let count = Number(this.wrongTime.string);
+        if (count < 0 || this.wrongTime.string == "") {
+            count = 0;
+        }
+        this.wrongTime.string = count.toString();
+        EditorManager.editorData.wrongTime = count;
+    }
+
+    private onClickAdd() {
+        EditorManager.editorData.itemData.push(new ItemData());
+        this.updateItemPanel();
+    }
+
+    public updateItemPanel() {
+        this.configPanel.removeAllChildren();
+        for (let i = 0; i < EditorManager.editorData.itemData.length; i++) {
+            let item = cc.instantiate(this.configItem.node);
+            item.parent = this.configPanel;
+            item.getComponent(ConfigItem).init(i);
+        }
     }
 
     // 星级评判开关
@@ -107,21 +153,6 @@ export default class TeacherPanel extends BaseTeacherPanel {
 
     //检查配置文件是否完整
     private checkConfig() {
-        return true;
-
-        let gameData = EditorManager.editorData.GameData;
-        if (gameData == null) {
-            UIHelp.showTip("请先配置最少一题题目");
-            return false;
-        }
-
-        if (gameData.titleData.length == 0) {
-            UIHelp.showTip("请先检查配置");
-            return false;
-        }
-
-        console.log("EditorManager.editorData.GameData", EditorManager.editorData.GameData);
-        EditorManager.editorData.levelCount = 1;
         return true;
     }
 

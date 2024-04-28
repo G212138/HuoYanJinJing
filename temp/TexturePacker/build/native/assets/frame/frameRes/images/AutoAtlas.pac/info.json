@@ -1,5 +1,5 @@
 {
-  "projectPath": "D:\\A_game\\beiJing\\2024\\WoDeBMI2",
+  "projectPath": "E:\\fork2\\HuoYanJinJing",
   "actualPlatform": "web-mobile",
   "mtimes": {
     "ba3fb529-c46e-4cf9-8e22-36b16d3696f3": {
@@ -326,7 +326,7 @@
             "name": "2",
             "uuid": "14c0c655-6f66-477e-8e4c-551ecb86055d",
             "textureUuid": "9cebdd5d-4b59-4a9b-9baf-aeb8ade5baf9",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693531_image_1.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811323_image_1.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -339,7 +339,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/9c/9cebdd5d-4b59-4a9b-9baf-aeb8ade5baf9.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/9c/9cebdd5d-4b59-4a9b-9baf-aeb8ade5baf9.png",
             "x": 0,
             "y": 0,
             "rotatedWidth": 1074,
@@ -349,7 +349,7 @@
             "name": "2",
             "uuid": "1a91941d-a152-42eb-ad49-7d64a458681f",
             "textureUuid": "a0e2b9a4-7853-411c-ba79-21813a34d796",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693531_image_3.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811324_image_3.png",
             "trim": {
               "x": 1077,
               "y": 3,
@@ -362,7 +362,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/a0/a0e2b9a4-7853-411c-ba79-21813a34d796.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/a0/a0e2b9a4-7853-411c-ba79-21813a34d796.png",
             "x": 1074,
             "y": 0,
             "rotated": true,
@@ -373,7 +373,7 @@
             "name": "jindu",
             "uuid": "15c5f32e-2a22-44d5-a8dc-1b5ad54ddcec",
             "textureUuid": "a1fb4030-577b-418a-95a4-36e7b5e33a45",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693531_image_2.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811323_image_2.png",
             "trim": {
               "x": 2001,
               "y": 3,
@@ -386,7 +386,7 @@
             "rawHeight": 20,
             "width": 615,
             "height": 26,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/a1/a1fb4030-577b-418a-95a4-36e7b5e33a45.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/a1/a1fb4030-577b-418a-95a4-36e7b5e33a45.png",
             "x": 1998,
             "y": 0,
             "rotated": true,
@@ -397,7 +397,7 @@
             "name": "Img_dian",
             "uuid": "0b51ff0d-0b25-4ec3-9226-9165fb70edb0",
             "textureUuid": "b0ed108b-a7e6-49f3-82ee-8261a94279f6",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693530_image_0.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811323_image_0.png",
             "trim": {
               "x": 2027,
               "y": 3,
@@ -410,7 +410,7 @@
             "rawHeight": 12,
             "width": 19,
             "height": 18,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/b0/b0ed108b-a7e6-49f3-82ee-8261a94279f6.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/b0/b0ed108b-a7e6-49f3-82ee-8261a94279f6.png",
             "x": 2024,
             "y": 0,
             "rotatedWidth": 19,
@@ -420,7 +420,7 @@
             "name": "dig-1",
             "uuid": "29cde8fb-dd9f-4981-8ebc-2ebec4fb65b3",
             "textureUuid": "ebe5bccb-4828-44af-94b9-94ac52a7c38f",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693532_image_5.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811324_image_5.png",
             "trim": {
               "x": 2001,
               "y": 618,
@@ -433,7 +433,7 @@
             "rawHeight": 21,
             "width": 25,
             "height": 27,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/eb/ebe5bccb-4828-44af-94b9-94ac52a7c38f.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/eb/ebe5bccb-4828-44af-94b9-94ac52a7c38f.png",
             "x": 1998,
             "y": 615,
             "rotated": true,
@@ -444,7 +444,7 @@
             "name": "dig",
             "uuid": "6925db0b-cac7-40e1-8671-31e2db3a1573",
             "textureUuid": "2368900f-2b7d-4ec8-aef5-f69341bfd7a0",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693535_image_17.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811327_image_17.png",
             "trim": {
               "x": 2001,
               "y": 643,
@@ -457,7 +457,7 @@
             "rawHeight": 21,
             "width": 25,
             "height": 27,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/23/2368900f-2b7d-4ec8-aef5-f69341bfd7a0.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/23/2368900f-2b7d-4ec8-aef5-f69341bfd7a0.png",
             "x": 1998,
             "y": 640,
             "rotated": true,
@@ -468,7 +468,7 @@
             "name": "3",
             "uuid": "1d36a5d8-615f-486d-afae-e09c67fe5c67",
             "textureUuid": "7f20b771-3a29-4a0f-b9f7-427f000caf62",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693532_image_4.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811324_image_4.png",
             "trim": {
               "x": 3,
               "y": 927,
@@ -481,7 +481,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/7f/7f20b771-3a29-4a0f-b9f7-427f000caf62.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/7f/7f20b771-3a29-4a0f-b9f7-427f000caf62.png",
             "x": 0,
             "y": 924,
             "rotatedWidth": 1074,
@@ -491,7 +491,7 @@
             "name": "Bitmap 1",
             "uuid": "40629a03-8b06-41b6-a544-cc2042368cdc",
             "textureUuid": "419a84df-27ce-4ed7-87a2-6120ce55af32",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693533_image_9.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811325_image_9.png",
             "trim": {
               "x": 3,
               "y": 1851,
@@ -504,7 +504,7 @@
             "rawHeight": 126,
             "width": 1102,
             "height": 132,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/41/419a84df-27ce-4ed7-87a2-6120ce55af32.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/41/419a84df-27ce-4ed7-87a2-6120ce55af32.png",
             "x": 0,
             "y": 1848,
             "rotatedWidth": 1102,
@@ -514,7 +514,7 @@
             "name": "Bitmap 2",
             "uuid": "84838538-d33f-477f-b069-550605961078",
             "textureUuid": "419a84df-27ce-4ed7-87a2-6120ce55af32",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693537_image_22.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811328_image_22.png",
             "trim": {
               "x": 3,
               "y": 1983,
@@ -527,7 +527,7 @@
             "rawHeight": 45,
             "width": 1074,
             "height": 51,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/41/419a84df-27ce-4ed7-87a2-6120ce55af32.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/41/419a84df-27ce-4ed7-87a2-6120ce55af32.png",
             "x": 0,
             "y": 1980,
             "rotatedWidth": 1074,
@@ -537,7 +537,7 @@
             "name": "jindu_bg",
             "uuid": "d234028a-afb9-4f8a-8575-e253f8d1ba3e",
             "textureUuid": "df81f65e-6fb4-4e96-b9ae-f8306c80ab6c",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693541_image_37.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811332_image_37.png",
             "trim": {
               "x": 1077,
               "y": 1983,
@@ -550,7 +550,7 @@
             "rawHeight": 48,
             "width": 642,
             "height": 52,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/df/df81f65e-6fb4-4e96-b9ae-f8306c80ab6c.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/df/df81f65e-6fb4-4e96-b9ae-f8306c80ab6c.png",
             "x": 1074,
             "y": 1980,
             "rotatedWidth": 642,
@@ -560,7 +560,7 @@
             "name": "pgbg_jindutiao",
             "uuid": "edc467e5-f08b-48e0-aa63-35020fe0559b",
             "textureUuid": "480d4d06-561e-44c8-8a00-a7b53cb9766d",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693542_image_42.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811333_image_42.png",
             "trim": {
               "x": 1719,
               "y": 1077,
@@ -573,7 +573,7 @@
             "rawHeight": 135,
             "width": 798,
             "height": 141,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/48/480d4d06-561e-44c8-8a00-a7b53cb9766d.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/48/480d4d06-561e-44c8-8a00-a7b53cb9766d.png",
             "x": 1716,
             "y": 1074,
             "rotated": true,
@@ -584,7 +584,7 @@
             "name": "icon_forbid",
             "uuid": "c634335a-147d-4877-8513-cf8c220bd669",
             "textureUuid": "cccf021c-f130-48fd-926b-75e8461060e5",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693541_image_36.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811332_image_36.png",
             "trim": {
               "x": 1719,
               "y": 1875,
@@ -597,7 +597,7 @@
             "rawHeight": 127,
             "width": 133,
             "height": 133,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/cc/cccf021c-f130-48fd-926b-75e8461060e5.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/cc/cccf021c-f130-48fd-926b-75e8461060e5.png",
             "x": 1716,
             "y": 1872,
             "rotatedWidth": 133,
@@ -607,7 +607,7 @@
             "name": "Bitmap 3",
             "uuid": "dde62278-4979-4536-b772-b1923f9e1cbb",
             "textureUuid": "419a84df-27ce-4ed7-87a2-6120ce55af32",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693542_image_40.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811332_image_40.png",
             "trim": {
               "x": 1852,
               "y": 1875,
@@ -620,7 +620,7 @@
             "rawHeight": 82,
             "width": 169,
             "height": 88,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/41/419a84df-27ce-4ed7-87a2-6120ce55af32.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/41/419a84df-27ce-4ed7-87a2-6120ce55af32.png",
             "x": 1849,
             "y": 1872,
             "rotated": true,
@@ -631,7 +631,7 @@
             "name": "btn_playAgain_normalbg",
             "uuid": "32a3fa14-0295-44b1-b332-7102753f881f",
             "textureUuid": "b2d06711-a5b9-412f-8e35-71136d64032d",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693532_image_7.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811324_image_7.png",
             "trim": {
               "x": 1860,
               "y": 1077,
@@ -644,7 +644,7 @@
             "rawHeight": 180,
             "width": 406,
             "height": 186,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/b2/b2d06711-a5b9-412f-8e35-71136d64032d.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/b2/b2d06711-a5b9-412f-8e35-71136d64032d.png",
             "x": 1857,
             "y": 1074,
             "rotated": true,
@@ -655,7 +655,7 @@
             "name": "btn_playAgain_normal",
             "uuid": "8e9f6a4e-825d-48e7-bbf4-c1e5e1d4528f",
             "textureUuid": "4a93a0f9-3419-472d-8bb3-bfb02de897b1",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693538_image_26.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811329_image_26.png",
             "trim": {
               "x": 1860,
               "y": 1483,
@@ -668,7 +668,7 @@
             "rawHeight": 160,
             "width": 386,
             "height": 166,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/4a/4a93a0f9-3419-472d-8bb3-bfb02de897b1.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/4a/4a93a0f9-3419-472d-8bb3-bfb02de897b1.png",
             "x": 1857,
             "y": 1480,
             "rotated": true,
@@ -679,7 +679,7 @@
             "name": "img_exit",
             "uuid": "88195c92-81bd-4c03-824f-0e9e74ba9274",
             "textureUuid": "5852a8a1-aa77-4992-a89f-541aaf4e9d91",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693538_image_24.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811328_image_24.png",
             "trim": {
               "x": 1940,
               "y": 1869,
@@ -692,7 +692,7 @@
             "rawHeight": 111,
             "width": 97,
             "height": 117,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/58/5852a8a1-aa77-4992-a89f-541aaf4e9d91.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/58/5852a8a1-aa77-4992-a89f-541aaf4e9d91.png",
             "x": 1937,
             "y": 1866,
             "rotatedWidth": 97,
@@ -702,7 +702,7 @@
             "name": "toast",
             "uuid": "66204e73-249a-4e98-9e62-c077b68a635f",
             "textureUuid": "d18b8639-bcea-466b-b17c-d05fa100d0d6",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693534_image_15.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811326_image_15.png",
             "trim": {
               "x": 1940,
               "y": 1986,
@@ -715,7 +715,7 @@
             "rawHeight": 50,
             "width": 56,
             "height": 56,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/d1/d18b8639-bcea-466b-b17c-d05fa100d0d6.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/d1/d18b8639-bcea-466b-b17c-d05fa100d0d6.png",
             "x": 1937,
             "y": 1983,
             "rotatedWidth": 56,
@@ -725,7 +725,7 @@
             "name": "u2",
             "uuid": "a5a74f12-e6b5-461a-b1e0-a6bab5c2d9d2",
             "textureUuid": "fe1487b6-21ee-49b2-be64-8086cb7203c7",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693540_image_33.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811331_image_33.png",
             "trim": {
               "x": 1077,
               "y": 1077,
@@ -738,7 +738,7 @@
             "rawHeight": 203,
             "width": 464,
             "height": 209,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/fe/fe1487b6-21ee-49b2-be64-8086cb7203c7.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/fe/fe1487b6-21ee-49b2-be64-8086cb7203c7.png",
             "x": 1074,
             "y": 1074,
             "rotatedWidth": 464,
@@ -748,7 +748,7 @@
             "name": "btn_more_challenge",
             "uuid": "68ba0da0-9cf9-4cbe-b951-8862f7b1512b",
             "textureUuid": "d5e0da52-0ee1-4352-afdb-5d3b750ac84f",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693535_image_16.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811326_image_16.png",
             "trim": {
               "x": 1541,
               "y": 1077,
@@ -761,7 +761,7 @@
             "rawHeight": 138,
             "width": 462,
             "height": 144,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/d5/d5e0da52-0ee1-4352-afdb-5d3b750ac84f.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/d5/d5e0da52-0ee1-4352-afdb-5d3b750ac84f.png",
             "x": 1538,
             "y": 1074,
             "rotated": true,
@@ -772,7 +772,7 @@
             "name": "word",
             "uuid": "d9af154b-cb4c-419e-abb0-05382c16fca8",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693541_image_39.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811332_image_39.png",
             "trim": {
               "x": 1077,
               "y": 1539,
@@ -785,7 +785,7 @@
             "rawHeight": 512,
             "width": 252,
             "height": 275,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1074,
             "y": 1536,
             "rotatedWidth": 252,
@@ -795,7 +795,7 @@
             "name": "btn_replay",
             "uuid": "b50163aa-1bb5-4943-98c8-b6964d68752f",
             "textureUuid": "544629ae-503d-4776-bd9c-49c6e8fae7b5",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693540_image_34.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811331_image_34.png",
             "trim": {
               "x": 1105,
               "y": 1814,
@@ -808,7 +808,7 @@
             "rawHeight": 138,
             "width": 462,
             "height": 144,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/54/544629ae-503d-4776-bd9c-49c6e8fae7b5.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/54/544629ae-503d-4776-bd9c-49c6e8fae7b5.png",
             "x": 1102,
             "y": 1811,
             "rotatedWidth": 462,
@@ -818,7 +818,7 @@
             "name": "pg_jindutiao",
             "uuid": "5e8abe0f-1506-44bc-be9d-d424bb072d94",
             "textureUuid": "371837ae-2088-4cb9-ae62-26465d54bbe8",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693534_image_13.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811326_image_13.png",
             "trim": {
               "x": 1567,
               "y": 1539,
@@ -831,7 +831,7 @@
             "rawHeight": 67,
             "width": 334,
             "height": 73,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/37/371837ae-2088-4cb9-ae62-26465d54bbe8.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/37/371837ae-2088-4cb9-ae62-26465d54bbe8.png",
             "x": 1564,
             "y": 1536,
             "rotated": true,
@@ -842,7 +842,7 @@
             "name": "img_zhan",
             "uuid": "d8f7ae1c-a6a0-48a3-82f7-78535c066e8f",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693541_image_38.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811332_image_38.png",
             "trim": {
               "x": 1567,
               "y": 1873,
@@ -855,7 +855,7 @@
             "rawHeight": 80,
             "width": 73,
             "height": 86,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1564,
             "y": 1870,
             "rotatedWidth": 73,
@@ -865,7 +865,7 @@
             "name": "u",
             "uuid": "71944752-4d20-4e2b-b71d-45f874e6c6d7",
             "textureUuid": "933c10ba-5b0b-4bb7-a294-741a18b8641f",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693536_image_20.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811327_image_20.png",
             "trim": {
               "x": 1329,
               "y": 1539,
@@ -878,7 +878,7 @@
             "rawHeight": 198,
             "width": 226,
             "height": 204,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/93/933c10ba-5b0b-4bb7-a294-741a18b8641f.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/93/933c10ba-5b0b-4bb7-a294-741a18b8641f.png",
             "x": 1326,
             "y": 1536,
             "rotatedWidth": 226,
@@ -888,7 +888,7 @@
             "name": "img_guan",
             "uuid": "6a8140a6-d39f-4d33-a271-e2f507e1f2d2",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693536_image_19.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811327_image_19.png",
             "trim": {
               "x": 1329,
               "y": 1743,
@@ -901,7 +901,7 @@
             "rawHeight": 81,
             "width": 71,
             "height": 87,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1326,
             "y": 1740,
             "rotated": true,
@@ -912,7 +912,7 @@
             "name": "img_gong",
             "uuid": "5e84c87d-e4b3-4575-bbe0-07eab7e24cae",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693534_image_12.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811325_image_12.png",
             "trim": {
               "x": 1416,
               "y": 1743,
@@ -925,7 +925,7 @@
             "rawHeight": 79,
             "width": 70,
             "height": 85,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1413,
             "y": 1740,
             "rotated": true,
@@ -936,7 +936,7 @@
             "name": "yuanJiao",
             "uuid": "9be27a7b-b122-4c1c-b381-66ce18a3b703",
             "textureUuid": "36c838ef-4e0c-40fc-af9c-52dc58acb82a",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693539_image_30.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811330_image_30.png",
             "trim": {
               "x": 1501,
               "y": 1743,
@@ -949,7 +949,7 @@
             "rawHeight": 50,
             "width": 56,
             "height": 56,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/36/36c838ef-4e0c-40fc-af9c-52dc58acb82a.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/36/36c838ef-4e0c-40fc-af9c-52dc58acb82a.png",
             "x": 1498,
             "y": 1740,
             "rotatedWidth": 56,
@@ -959,7 +959,7 @@
             "name": "img_sai",
             "uuid": "eb383f3c-c5b8-4bb2-9627-2ae78c95c613",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693542_image_41.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811333_image_41.png",
             "trim": {
               "x": 1640,
               "y": 1539,
@@ -972,7 +972,7 @@
             "rawHeight": 81,
             "width": 72,
             "height": 87,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1637,
             "y": 1536,
             "rotatedWidth": 72,
@@ -982,7 +982,7 @@
             "name": "img_jie",
             "uuid": "b99e3d8a-208f-46e7-8241-9ae910ed0cb9",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693540_image_35.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811331_image_35.png",
             "trim": {
               "x": 1640,
               "y": 1626,
@@ -995,7 +995,7 @@
             "rawHeight": 78,
             "width": 74,
             "height": 84,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1637,
             "y": 1623,
             "rotatedWidth": 74,
@@ -1005,7 +1005,7 @@
             "name": "img_zuo",
             "uuid": "6a6e95c0-7133-4380-a03e-6166212c59dd",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693536_image_18.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811327_image_18.png",
             "trim": {
               "x": 1640,
               "y": 1710,
@@ -1018,7 +1018,7 @@
             "rawHeight": 79,
             "width": 73,
             "height": 85,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1637,
             "y": 1707,
             "rotatedWidth": 73,
@@ -1028,7 +1028,7 @@
             "name": "img_tiao",
             "uuid": "a204e591-c845-4585-8c21-d904b6e70b39",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693540_image_32.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811330_image_32.png",
             "trim": {
               "x": 1640,
               "y": 1795,
@@ -1041,7 +1041,7 @@
             "rawHeight": 77,
             "width": 74,
             "height": 83,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1637,
             "y": 1792,
             "rotatedWidth": 74,
@@ -1051,7 +1051,7 @@
             "name": "img_da",
             "uuid": "4a6b5a97-5fbf-4aee-910e-4be7cb8e1537",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693533_image_10.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811325_image_10.png",
             "trim": {
               "x": 1640,
               "y": 1878,
@@ -1064,7 +1064,7 @@
             "rawHeight": 78,
             "width": 73,
             "height": 84,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1637,
             "y": 1875,
             "rotatedWidth": 73,
@@ -1074,7 +1074,7 @@
             "name": "img_shu",
             "uuid": "34b93be1-4e4a-4a5f-9408-9a357ef4f1e1",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693533_image_8.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811325_image_8.png",
             "trim": {
               "x": 1077,
               "y": 1286,
@@ -1087,7 +1087,7 @@
             "rawHeight": 78,
             "width": 70,
             "height": 84,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1074,
             "y": 1283,
             "rotatedWidth": 70,
@@ -1097,7 +1097,7 @@
             "name": "img_chuang",
             "uuid": "8f17955f-01aa-44c2-a31e-512195f628ff",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693538_image_27.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811329_image_27.png",
             "trim": {
               "x": 1077,
               "y": 1370,
@@ -1110,7 +1110,7 @@
             "rawHeight": 78,
             "width": 69,
             "height": 84,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1074,
             "y": 1367,
             "rotatedWidth": 69,
@@ -1120,7 +1120,7 @@
             "name": "img_bi",
             "uuid": "9417cedc-60e5-4ef3-bee4-0aadd76c9a6e",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693539_image_28.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811329_image_28.png",
             "trim": {
               "x": 1077,
               "y": 1454,
@@ -1133,7 +1133,7 @@
             "rawHeight": 78,
             "width": 69,
             "height": 84,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1074,
             "y": 1451,
             "rotatedWidth": 69,
@@ -1143,7 +1143,7 @@
             "name": "img_cheng",
             "uuid": "897bffd5-6e97-464b-a76a-0da4452de091",
             "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693538_image_25.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811329_image_25.png",
             "trim": {
               "x": 1146,
               "y": 1370,
@@ -1156,7 +1156,7 @@
             "rawHeight": 80,
             "width": 67,
             "height": 86,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
             "x": 1143,
             "y": 1367,
             "rotatedWidth": 67,
@@ -1166,12 +1166,12 @@
         "width": 2048,
         "height": 2048,
         "name": "AutoAtlas-1",
-        "imagePath": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "imagePath": "E:\\fork2\\HuoYanJinJing\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-1.png",
         "compressd": {
           "suffix": [
             ".png"
           ],
-          "imagePathNoExt": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+          "imagePathNoExt": "E:\\fork2\\HuoYanJinJing\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
         }
       },
       {
@@ -1180,7 +1180,7 @@
             "name": "3",
             "uuid": "52cfdf3e-c02d-4f80-87ea-0ed9caa8b128",
             "textureUuid": "1e57d324-2c2f-43f8-9f11-366ea4f3eb0d",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693533_image_11.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811325_image_11.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -1193,7 +1193,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/1e/1e57d324-2c2f-43f8-9f11-366ea4f3eb0d.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/1e/1e57d324-2c2f-43f8-9f11-366ea4f3eb0d.png",
             "x": 0,
             "y": 0,
             "rotatedWidth": 1074,
@@ -1203,7 +1203,7 @@
             "name": "1",
             "uuid": "63bf5f81-9621-41ce-937d-d3735604ba5b",
             "textureUuid": "a77f133e-f8e1-4912-9bbd-8c894680d854",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693534_image_14.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811326_image_14.png",
             "trim": {
               "x": 1077,
               "y": 3,
@@ -1216,7 +1216,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/a7/a77f133e-f8e1-4912-9bbd-8c894680d854.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/a7/a77f133e-f8e1-4912-9bbd-8c894680d854.png",
             "x": 1074,
             "y": 0,
             "rotated": true,
@@ -1227,7 +1227,7 @@
             "name": "0",
             "uuid": "75e5f92b-3e6d-4679-a960-5efdb6283d33",
             "textureUuid": "6ef9b72e-b2d2-40c1-8916-c5fdab3947e7",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693537_image_21.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811328_image_21.png",
             "trim": {
               "x": 3,
               "y": 927,
@@ -1240,7 +1240,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/6e/6ef9b72e-b2d2-40c1-8916-c5fdab3947e7.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/6e/6ef9b72e-b2d2-40c1-8916-c5fdab3947e7.png",
             "x": 0,
             "y": 924,
             "rotated": true,
@@ -1251,7 +1251,7 @@
             "name": "1",
             "uuid": "95effcb9-ebe1-4e0d-8ad6-df489619615c",
             "textureUuid": "16e13dbc-a7d7-4e40-a261-9b26e5fdef96",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693539_image_29.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811330_image_29.png",
             "trim": {
               "x": 927,
               "y": 1077,
@@ -1264,7 +1264,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/16/16e13dbc-a7d7-4e40-a261-9b26e5fdef96.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/16/16e13dbc-a7d7-4e40-a261-9b26e5fdef96.png",
             "x": 924,
             "y": 1074,
             "rotatedWidth": 1074,
@@ -1274,12 +1274,12 @@
         "width": 2048,
         "height": 2048,
         "name": "AutoAtlas-2",
-        "imagePath": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-2.png",
+        "imagePath": "E:\\fork2\\HuoYanJinJing\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-2.png",
         "compressd": {
           "suffix": [
             ".png"
           ],
-          "imagePathNoExt": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-2"
+          "imagePathNoExt": "E:\\fork2\\HuoYanJinJing\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-2"
         }
       },
       {
@@ -1288,7 +1288,7 @@
             "name": "0",
             "uuid": "9f2b94fc-fe6f-423d-8ca7-fcf9bcb600bd",
             "textureUuid": "a6eb3c5e-a59e-45bd-9754-46a3c225bde3",
-            "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693539_image_31.png",
+            "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811330_image_31.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -1301,7 +1301,7 @@
             "rawHeight": 918,
             "width": 1074,
             "height": 924,
-            "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/a6/a6eb3c5e-a59e-45bd-9754-46a3c225bde3.png",
+            "originalPath": "E:/fork2/HuoYanJinJing/library/imports/a6/a6eb3c5e-a59e-45bd-9754-46a3c225bde3.png",
             "x": 0,
             "y": 0,
             "rotatedWidth": 1074,
@@ -1311,12 +1311,12 @@
         "width": 2048,
         "height": 1024,
         "name": "AutoAtlas-3",
-        "imagePath": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-3.png",
+        "imagePath": "E:\\fork2\\HuoYanJinJing\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-3.png",
         "compressd": {
           "suffix": [
             ".png"
           ],
-          "imagePathNoExt": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-3"
+          "imagePathNoExt": "E:\\fork2\\HuoYanJinJing\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-3"
         }
       }
     ],
@@ -1325,7 +1325,7 @@
         "name": "loading_bg",
         "uuid": "30fba5c4-da61-4d42-8471-bc10925fda5b",
         "textureUuid": "910d890d-61a9-4dc1-b91a-da67bc5419d2",
-        "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693532_image_6.png",
+        "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811324_image_6.png",
         "trim": {
           "x": 0,
           "y": 0,
@@ -1338,13 +1338,13 @@
         "rawHeight": 1152,
         "width": 2054,
         "height": 1158,
-        "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/91/910d890d-61a9-4dc1-b91a-da67bc5419d2.png"
+        "originalPath": "E:/fork2/HuoYanJinJing/library/imports/91/910d890d-61a9-4dc1-b91a-da67bc5419d2.png"
       },
       {
         "name": "loading_bg",
         "uuid": "8727853a-a625-4499-9646-05fd6227a2f6",
         "textureUuid": "3dc44d5a-8a27-4eca-b58d-89114c343dbd",
-        "path": "D:\\A_game\\beiJing\\2024\\WoDeBMI2\\temp\\trimImages\\spritesheet_js_1714032693537_image_23.png",
+        "path": "E:\\fork2\\HuoYanJinJing\\temp\\trimImages\\spritesheet_js_1714318811328_image_23.png",
         "trim": {
           "x": 0,
           "y": 0,
@@ -1357,7 +1357,7 @@
         "rawHeight": 1152,
         "width": 2054,
         "height": 1158,
-        "originalPath": "D:/A_game/beiJing/2024/WoDeBMI2/library/imports/3d/3dc44d5a-8a27-4eca-b58d-89114c343dbd.png"
+        "originalPath": "E:/fork2/HuoYanJinJing/library/imports/3d/3dc44d5a-8a27-4eca-b58d-89114c343dbd.png"
       }
     ]
   }

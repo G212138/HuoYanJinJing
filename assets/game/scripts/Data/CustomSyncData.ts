@@ -5,30 +5,10 @@
 export class CustomSyncData {
     public curLevel: number = 0; // 当前关卡(第一关为0)
     // TODO 自定义
-    public joinFJT = false;
-    public isGameStart: boolean = false;
-    public isGameOver: boolean = false;
-
-    public gameData1 = {
-        xingBie: -1,
-        nianLing: 7,
-        AgeDis: 60
-    }
-
-    public gameData2 = {
-        shiWuIndex: -1,
-        yunDongIndex: -1,
-        weightDis: 0,
-        weightValue: 0,
-        heightDis: 0,
-        heightValue: 0,
-    }
-
-
-
-
-
-
-
-
+    public curStep: number = 0; // 步数
+    public allHideItem: string[] = []; // 隐藏的物品
+    public curHideItem: string[] = []; // 隐藏的物品
+    public isClickStart: boolean = false; // 是否点击开始
+    public countdown: number = 0; // 倒计时
+    public answerTimes: number = 0; // 答题次数
 }

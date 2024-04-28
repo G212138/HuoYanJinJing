@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_naicha",
+    "texture": "f4329e7a-5b00-44a7-b5fa-d001af6ed2b3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      163,
+      221
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      163,
+      221
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

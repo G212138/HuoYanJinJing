@@ -10,8 +10,8 @@ var ConstValue = /** @class */ (function () {
     }
     ConstValue.IS_EDITIONS = true; //是否为发布版本，用于数据上报 及 log输出控制
     ConstValue.IS_TEACHER = true; //是否为教师端版本
-    ConstValue.CoursewareKey = 'WoDeBMI2'; //每个课件唯一的key 工程名+14位随机字符串。（脚本创建工程时自动生成）
-    ConstValue.GameName = '我的BMI2'; //游戏名中文描述，用于数据上报  （脚本创建工程时输入）
+    ConstValue.CoursewareKey = 'HuoYanJinJing'; //每个课件唯一的key 工程名+14位随机字符串。（脚本创建工程时自动生成）
+    ConstValue.GameName = '火眼金睛'; //游戏名中文描述，用于数据上报  （脚本创建工程时输入）
     ConstValue.Subject = 1; //学科（1理科 2语文 3英语）
     return ConstValue;
 }());

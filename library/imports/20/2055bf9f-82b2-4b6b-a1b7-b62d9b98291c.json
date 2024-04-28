@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "youxijiesuan-dianji",
+    "texture": "aea3854f-957f-48e6-ad0f-6527ada09460",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      410,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

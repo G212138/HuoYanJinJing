@@ -80,7 +80,15 @@ var UIHelpClass = /** @class */ (function () {
     UIHelpClass.prototype.showStarCount = function (isShowReplay, starNum) {
         var _this = this;
         var starCount = UIManager_1.UIManager.getUI(StarCount_1.default);
-        starNum = SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.xingCount;
+        if (SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.answerTimes > 2) {
+            starNum = 1;
+        }
+        else if (SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.answerTimes > 0) {
+            starNum = 2;
+        }
+        else {
+            starNum = 3;
+        }
         if (!starCount) {
             UIManager_1.UIManager.openUI(StarCount_1.default, null, UIManager_1.EPANEL_ZORDER.POPUP, function () {
                 _this.showStarCount(isShowReplay, starNum);

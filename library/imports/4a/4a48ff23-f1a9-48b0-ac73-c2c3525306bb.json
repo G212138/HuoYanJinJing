@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "youxijiesuan-suoding",
+    "texture": "ba2ae29f-5773-4aa2-a552-6c06adb67b7e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      410,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

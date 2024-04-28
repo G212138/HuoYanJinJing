@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_luzhang",
+    "texture": "b7405237-184f-4724-992d-5708ee990537",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      208,
+      164
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      208,
+      164
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

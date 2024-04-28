@@ -49,5 +49,8 @@ require('./assets/game/scripts/Data/EventType');
 require('./assets/game/scripts/Manager/EditorManager');
 require('./assets/game/scripts/Manager/GameManager');
 require('./assets/game/scripts/SkeletonExt');
+require('./assets/game/scripts/UI/Item/ConfigItem');
+require('./assets/game/scripts/UI/Item/GameItem');
+require('./assets/game/scripts/UI/layer/GameLayer');
 require('./assets/game/scripts/UI/panel/GamePanel');
 require('./assets/game/scripts/UI/panel/TeacherPanel');

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zailaiyici-changtai",
+    "texture": "7d9e810c-74f1-42d2-ac23-af90c2744c68",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      156
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      410,
+      156
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

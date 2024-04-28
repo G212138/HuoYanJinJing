@@ -29,6 +29,7 @@ var UIManager_1 = require("../../../../frame/scripts/Manager/UIManager");
 var BaseTeacherPanel_1 = require("../../../../frame/scripts/UI/Panel/BaseTeacherPanel");
 var UIHelp_1 = require("../../../../frame/scripts/Utils/UIHelp");
 var EditorManager_1 = require("../../Manager/EditorManager");
+var ConfigItem_1 = require("../Item/ConfigItem");
 var GamePanel_1 = require("./GamePanel");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var TeacherPanel = /** @class */ (function (_super) {
@@ -38,6 +39,10 @@ var TeacherPanel = /** @class */ (function (_super) {
         _this.toggle_stars = null;
         _this.toggle_replay = null;
         _this.toggle_titleAudio = null;
+        _this.countdown = null;
+        _this.wrongTime = null;
+        _this.configItem = null;
+        _this.configPanel = null;
         _this._btn_save = null;
         _this._btn_view = null;
         /**
@@ -70,6 +75,37 @@ var TeacherPanel = /** @class */ (function (_super) {
         // EditorManager.editorData.GameData = JSON.parse(JSON.stringify(level.titleData));
         // console.log("EditorManager.editorData.GameData", EditorManager.editorData.GameData);
         // this.node_config.getComponent(TeacherConfig).updateOptionPanel();
+        this.countdown.string = EditorManager_1.EditorManager.editorData.countdown.toString();
+        this.wrongTime.string = EditorManager_1.EditorManager.editorData.wrongTime.toString();
+        this.updateItemPanel();
+    };
+    TeacherPanel.prototype.onEditCountdownChange = function () {
+        var count = Number(this.countdown.string);
+        if (count < 1 || this.countdown.string == "") {
+            count = 1;
+        }
+        this.countdown.string = count.toString();
+        EditorManager_1.EditorManager.editorData.countdown = count;
+    };
+    TeacherPanel.prototype.onEditWrongTimeChange = function () {
+        var count = Number(this.wrongTime.string);
+        if (count < 0 || this.wrongTime.string == "") {
+            count = 0;
+        }
+        this.wrongTime.string = count.toString();
+        EditorManager_1.EditorManager.editorData.wrongTime = count;
+    };
+    TeacherPanel.prototype.onClickAdd = function () {
+        EditorManager_1.EditorManager.editorData.itemData.push(new EditorManager_1.ItemData());
+        this.updateItemPanel();
+    };
+    TeacherPanel.prototype.updateItemPanel = function () {
+        this.configPanel.removeAllChildren();
+        for (var i = 0; i < EditorManager_1.EditorManager.editorData.itemData.length; i++) {
+            var item = cc.instantiate(this.configItem.node);
+            item.parent = this.configPanel;
+            item.getComponent(ConfigItem_1.default).init(i);
+        }
     };
     // 星级评判开关
     TeacherPanel.prototype.onToggleStar = function (toggle) {
@@ -115,18 +151,6 @@ var TeacherPanel = /** @class */ (function (_super) {
     //检查配置文件是否完整
     TeacherPanel.prototype.checkConfig = function () {
         return true;
-        var gameData = EditorManager_1.EditorManager.editorData.GameData;
-        if (gameData == null) {
-            UIHelp_1.UIHelp.showTip("请先配置最少一题题目");
-            return false;
-        }
-        if (gameData.titleData.length == 0) {
-            UIHelp_1.UIHelp.showTip("请先检查配置");
-            return false;
-        }
-        console.log("EditorManager.editorData.GameData", EditorManager_1.EditorManager.editorData.GameData);
-        EditorManager_1.EditorManager.editorData.levelCount = 1;
-        return true;
     };
     //复制数组
     TeacherPanel.prototype.copyArray = function (arr) {
@@ -142,6 +166,18 @@ var TeacherPanel = /** @class */ (function (_super) {
     __decorate([
         property(cc.ToggleContainer)
     ], TeacherPanel.prototype, "toggle_titleAudio", void 0);
+    __decorate([
+        property(cc.EditBox)
+    ], TeacherPanel.prototype, "countdown", void 0);
+    __decorate([
+        property(cc.EditBox)
+    ], TeacherPanel.prototype, "wrongTime", void 0);
+    __decorate([
+        property(ConfigItem_1.default)
+    ], TeacherPanel.prototype, "configItem", void 0);
+    __decorate([
+        property(cc.Node)
+    ], TeacherPanel.prototype, "configPanel", void 0);
     TeacherPanel = __decorate([
         ccclass
     ], TeacherPanel);

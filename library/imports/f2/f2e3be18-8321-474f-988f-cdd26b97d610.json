@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fengmianwenzi",
+    "texture": "3e3f95c2-bf00-4e4c-86d1-245002ab7cd8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1126,
+      351
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1126,
+      351
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

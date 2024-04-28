@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_chizi",
+    "texture": "db1d4c75-6478-4f2b-b0ba-841e3f33ce66",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      136,
+      154
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      136,
+      154
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

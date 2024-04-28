@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_guzi",
+    "texture": "bf7cb237-6c72-4db5-a686-c369b603734e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      264,
+      201
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      264,
+      201
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
