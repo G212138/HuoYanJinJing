@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "24_Csw_G1J7_huoyanjinjing_kaixin",
+    "texture": "5fcd1d66-b626-4038-b1d3-c9476eba9ee7",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      2019,
+      2042
+    ],
+    "offset": [
+      -11.5,
+      0
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

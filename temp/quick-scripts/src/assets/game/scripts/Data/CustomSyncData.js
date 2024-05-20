@@ -19,6 +19,7 @@ var CustomSyncData = /** @class */ (function () {
         this.isClickStart = false; // 是否点击开始
         this.countdown = 0; // 倒计时
         this.answerTimes = 0; // 答题次数
+        this.enableClick = true; // 是否可以点击
     }
     return CustomSyncData;
 }());

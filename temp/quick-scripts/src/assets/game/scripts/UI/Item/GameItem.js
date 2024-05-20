@@ -30,7 +30,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var ListenerManager_1 = require("../../../../frame/scripts/Manager/ListenerManager");
+var SoundManager_1 = require("../../../../frame/scripts/Manager/SoundManager");
 var SyncDataManager_1 = require("../../../../frame/scripts/Manager/SyncDataManager");
+var Tools_1 = require("../../../../frame/scripts/Utils/Tools");
 var EventType_1 = require("../../Data/EventType");
 var EditorManager_1 = require("../../Manager/EditorManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -47,6 +49,9 @@ var NewClass = /** @class */ (function (_super) {
         return _this;
     }
     NewClass.prototype.onClick = function () {
+        if (!SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.enableClick) {
+            return;
+        }
         var curStep = SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.curStep;
         var gameData = EditorManager_1.EditorManager.editorData.itemData;
         var type = gameData[curStep].type;
@@ -59,10 +64,10 @@ var NewClass = /** @class */ (function (_super) {
         else if (type == 2 && this.zhijiao) {
             this.handleTrue();
         }
-        else if (type == 3 && this.dunjiao) {
+        else if (type == 3 && this.ruijiao) {
             this.handleTrue();
         }
-        else if (type == 4 && this.ruijiao) {
+        else if (type == 4 && this.dunjiao) {
             this.handleTrue();
         }
         else {
@@ -71,15 +76,44 @@ var NewClass = /** @class */ (function (_super) {
     };
     NewClass.prototype.handleTrue = function () {
         var _this = this;
+        SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.enableClick = false;
+        var soundName = ["哈找对了", "好眼力", "你真棒"];
+        var random = Math.floor(Math.random() * 3);
+        SoundManager_1.SoundManager.playEffect(soundName[random], false, true, false, function () {
+            SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.enableClick = true;
+        });
+        for (var i = 0; i < SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.curHideItem.length; i++) {
+            if (SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.curHideItem[i] == this.node.name) {
+                SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.curHideItem.splice(i, 1);
+            }
+        }
+        for (var i = 0; i < SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.allHideItem.length; i++) {
+            if (SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.allHideItem[i] == this.node.name) {
+                SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.allHideItem.splice(i, 1);
+            }
+        }
         SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.curHideItem.push(this.node.name);
         SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.allHideItem.push(this.node.name);
         ListenerManager_1.ListenerManager.dispatch(EventType_1.EventType.ON_CLICK_ITEM, true);
         //节点旋转隐藏
-        cc.tween(this.node).to(0.5, { angle: 360, opacity: 0 }).call(function () {
+        cc.tween(this.node).to(0.5, { angle: -720, opacity: 0 }).call(function () {
             _this.node.active = false;
         }).start();
+        var xiaoshiAni = this.node.parent.parent.getChildByName("xiaoshi");
+        xiaoshiAni.active = true;
+        xiaoshiAni.position = this.node.position;
+        Tools_1.Tools.playSpine(xiaoshiAni.getComponent(sp.Skeleton), "xiaoshi", false, function () {
+            xiaoshiAni.active = false;
+        });
     };
     NewClass.prototype.handleFalse = function () {
+        SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.enableClick = false;
+        this.node.parent.parent.getChildByName("xiaoshi").active = false;
+        var soundName = ["在想想", "找错咯", "嗯"];
+        var random = Math.floor(Math.random() * 3);
+        SoundManager_1.SoundManager.playEffect(soundName[random], false, true, false, function () {
+            SyncDataManager_1.SyncDataManager.getSyncData().customSyncData.enableClick = true;
+        });
         //节点抖动
         ListenerManager_1.ListenerManager.dispatch(EventType_1.EventType.ON_CLICK_ITEM, false);
         var posX = Number(this.node.x);

@@ -11,4 +11,5 @@ export class CustomSyncData {
     public isClickStart: boolean = false; // 是否点击开始
     public countdown: number = 0; // 倒计时
     public answerTimes: number = 0; // 答题次数
+    public enableClick: boolean = true; // 是否可以点击
 }

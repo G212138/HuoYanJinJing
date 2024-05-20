@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "24_Csw_G1J7_huoyanjinjing_feixing",
+    "texture": "0432d91f-3d2d-4a3f-a6cf-9521bedca3a4",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      1277,
+      2040
+    ],
+    "offset": [
+      -382.5,
+      1
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
